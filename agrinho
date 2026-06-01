@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agro Forte</h1>
+        <p>Equilibrando produção agrícola e meio ambiente</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Bem-vindo ao Agro Forte</h2>
+            <p>Nosso objetivo é promover práticas agrícolas sustentáveis, aumentando a produção sem prejudicar o meio ambiente.</p>
+        </section>
+
+        <section class="stats">
+            <h2>Impacto da Sustentabilidade</h2>
+            <div class="stats-cards">
+                <div class="card">
+                    <h3>Produção Agrícola</h3>
+                    <p id="prod">0%</p>
+                </div>
+                <div class="card">
+                    <h3>Áreas Verdes</h3>
+                    <p id="verde">0%</p>
+                </div>
+                <div class="card">
+                    <h3>Redução de Poluição</h3>
+                    <p id="pol">0%</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <h2>Faça a diferença!</h2>
+            <button id="updateStats">Atualizar Estatísticas Sustentáveis</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Agro Forte - Sustentabilidade e Produção Caminhando Juntas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
